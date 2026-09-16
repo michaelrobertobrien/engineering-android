@@ -1,3 +1,3 @@
 title: engineering-android
 description: Reflections on Android architecture, framework internals, and development.
-permalink: /:categories/:title/
+permalink: /:categories/:title.html
