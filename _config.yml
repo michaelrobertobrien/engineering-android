@@ -1,0 +1,4 @@
+title: engineering-android
+description: Reflections on Android architecture, framework internals, and development.
+theme: jekyll-theme-cayman
+permalink: /:categories/:title/
