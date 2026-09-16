@@ -3,7 +3,7 @@ layout: default
 title: engineering-android Index
 ---
 
-## [Android Platform Architecture](platform/architecture)
+#### [Android Platform Architecture](platform/architecture)
 
 ### 🏗️ Architecture & Jetpack
 * [Modern Android Architecture Guidelines](architecture/maa-guidelines) — A breakdown of MVI and Guide to App Architecture.
