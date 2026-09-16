@@ -30,7 +30,7 @@ title: engineeringandroid
 
 <div class="section-title" style="margin-top: 30px;">Media</div>
 <div class="link-matrix" style="line-height: 1.8;">
-    <a href="/media/image-loading.html">Image Loading</a><br>
+    <a href="engineering-android/media/image-loading.html">Image Loading</a><br>
 </div>
 
 <div class="section-title" style="margin-top: 30px;">Performance</div>
