@@ -28,9 +28,19 @@ title: engineeringandroid
     <a href="/framework/binder-ipc.html">Jetpack Compose</a><br>
 </div>
 
+<div class="section-title" style="margin-top: 30px;">Media</div>
+<div class="link-matrix" style="line-height: 1.8;">
+    <a href="/framework/binder-ipc.html">Image Loading</a><br>
+</div>
+
 <div class="section-title" style="margin-top: 30px;">Performance</div>
 <div class="link-matrix" style="line-height: 1.8;">
     <a href="/framework/binder-ipc.html">Diagnostics</a><br>
+</div>
+
+<div class="section-title" style="margin-top: 30px;">Build System</div>
+<div class="link-matrix" style="line-height: 1.8;">
+    <a href="/framework/binder-ipc.html">Gradle</a><br>
 </div>
 
 <hr>
