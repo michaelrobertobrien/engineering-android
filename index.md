@@ -5,7 +5,7 @@ title: AndroidPages Index
 
 # engineering-android
 
-Welcome to **AndroidPages**, a collection of articles, notes, and deep dives into the Android operating system, framework internals, and modern application development.
+Welcome to **engineering-android**, a collection of articles, notes, and deep dives into the Android operating system, framework internals, and modern application development.
 
 ---
 
