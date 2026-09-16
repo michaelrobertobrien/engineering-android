@@ -3,10 +3,7 @@ layout: default
 title: engineering-android Index
 ---
 
-### [Android Platform Architecture](platform/architecture)
-* [Understanding the Binder IPC Mechanism](framework/binder-ipc) — ...
-* [The Lifecycle of a View](framework/view-lifecycle) — ...
-* [Zygote: The Android Process Starter](framework/zygote-process) — ...
+## [Android Platform Architecture](platform/architecture)
 
 ### 🏗️ Architecture & Jetpack
 * [Modern Android Architecture Guidelines](architecture/maa-guidelines) — A breakdown of MVI and Guide to App Architecture.
