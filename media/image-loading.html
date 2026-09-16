@@ -1,1 +1,40 @@
-Hello
+---
+layout: default
+title: Image Loading
+---
+
+<h1>Image Loading Placeholder</h1>
+<hr>
+
+<div class="content">
+
+The architecture of the Android operating system is structured around an open-source, component-based stack. This structural layout provides application separation while ensuring direct, low-latency access to hardware abstraction models. Unlike traditional desktop Linux installations, the ecosystem operates on a dual-runtime boundary model that separates low-level native processes from standard application code.
+
+The foundation layer rests directly upon a modified Linux kernel. This environment handles thread assignments, device drivers, and low-level memory mappings. Directly above the kernel surface lies the native user-space runtime layer. This section houses core system daemons, system libraries, and runtime components.
+
+Applications execute routines inside sandboxed process boxes managed by the Android Runtime (ART). Every running process maps its memory usage constraints uniquely. This setup completely prevents a standard crash inside an application container from compromising system stability:
+
+<pre>
++--------------------------------------------+
+
+|        Applications (Kotlin / Java)       |
++--------------------------------------------+
+
+|         Android Framework Services         |
++--------------------------------------------+
+
+|    Android Runtime (ART) / Core Libraries  |
++--------------------------------------------+
+
+|      Hardware Abstraction Layer (HAL)      |
++--------------------------------------------+
+
+|                Linux Kernel                |
++--------------------------------------------+
+</pre>
+
+Communication across these structural layout boundaries utilizes optimized remote procedure pipelines. This paradigm allows distinct system nodes to share computational resources efficiently without degrading battery profiles.
+
+Through this multi-tiered architecture, the system enforces uniform execution metrics. This isolation layer remains rigid even under concurrent computational workloads.
+
+</div>
