@@ -4,73 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- MathJax script for authentic equation rendering -->
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
         body {
             font-family: "Times New Roman", Times, serif;
             background-color: #ffffff;
             color: #000000;
-            line-height: 1.4;
-            margin: 20px auto;
-            max-width: 900px;
-            padding: 0 15px;
+            margin: 40px auto;
+            max-width: 720px; /* Traditional print page width */
+            padding: 0 20px;
+            font-size: 16px;
+            line-height: 1.5;
         }
         a {
             color: #0000ee;
-            text-decoration: none;
+            text-decoration: underline;
         }
         a:visited {
             color: #551a8b;
         }
-        a:hover {
-            text-decoration: underline;
-        }
         hr {
             border: 0;
-            border-top: 1px solid #333333;
-            margin: 15px 0;
+            border-top: 1px solid #000000;
+            margin: 12px 0;
         }
-        h1, h2, h3, h4 {
-            font-family: "Times New Roman", Times, serif;
+        h1 {
+            font-size: 22px;
             font-weight: bold;
-            margin-bottom: 5px;
-            margin-top: 15px;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 2px;
         }
-        h1 { font-size: 24px; text-align: center; letter-spacing: 1px; }
-        h2 { font-size: 18px; border-bottom: 1px dashed #999; padding-bottom: 2px; }
-        h3 { font-size: 16px; margin-top: 10px; }
-        
-        /* MathPages Classic Grid Directory Matrix */
-        .directory-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px 40px;
-            margin-top: 15px;
-        }
-        .directory-item {
+        .subheader {
+            text-align: center;
+            font-style: italic;
             font-size: 14px;
-            text-align: left;
+            margin-bottom: 12px;
         }
-        
-        /* Content formatting for articles */
-        .content {
-            font-size: 15px;
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        /* The signature MathPages inline dot layout */
+        .link-matrix {
             text-align: justify;
+            font-size: 15px;
+            margin-bottom: 20px;
+            text-justify: inter-word;
+        }
+        .link-matrix a {
+            text-decoration: none;
+        }
+        .link-matrix a:hover {
+            text-decoration: underline;
+        }
+        /* Article body styling */
+        .content {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .content p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            text-indent: 30px; /* Traditional paragraph indent */
+        }
+        .content p:first-of-type {
+            text-indent: 0; /* First paragraph isn't indented */
         }
         pre, code {
-            font-family: Courier, monospace;
-            font-size: 13px;
-            background-color: #f7f7f7;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 14px;
         }
         pre {
-            padding: 8px;
-            border: 1px solid #ccc;
-            overflow-x: auto;
+            margin: 20px 40px;
+            text-align: left;
         }
         .footer {
-            font-size: 12px;
+            font-size: 13px;
             text-align: center;
-            margin-top: 40px;
-            color: #555555;
+            margin-top: 60px;
         }
     </style>
 </head>
@@ -80,7 +97,7 @@
 
     <div class="footer">
         <hr>
-        <a href="/">Home</a> | <a href="https://github.com/{{ site.github.repository_nwo }}">Source Code</a>
+        <a href="/">Home</a>
     </div>
 
 </body>
