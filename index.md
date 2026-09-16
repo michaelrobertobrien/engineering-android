@@ -1,15 +1,9 @@
 ---
 layout: default
-title: AndroidPages Index
+title: engineering-android Index
 ---
 
-# engineering-android
-
-Welcome to **engineering-android**, a collection of articles, notes, and deep dives into the Android operating system, framework internals, and modern application development.
-
----
-
-### 📱 Android Framework & Internals
+### [Android Platform Architecture](platform/architecture)
 * [Understanding the Binder IPC Mechanism](framework/binder-ipc) — ...
 * [The Lifecycle of a View](framework/view-lifecycle) — ...
 * [Zygote: The Android Process Starter](framework/zygote-process) — ...
