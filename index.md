@@ -3,8 +3,8 @@ layout: default
 title: engineeringandroid
 ---
 
-<h1>Android</h1>
-<div class="subheader">Reflections on Architecture, Framework Internals, and Kernel Mechanics</div>
+<h1>Engineering Android</h1>
+<div class="subheader">Reflections on engineering for Android.</div>
 <hr>
 
 <div class="section-title">Architecture</div>
