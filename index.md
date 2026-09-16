@@ -1,16 +1,24 @@
 ---
 layout: default
-title: engineering-android Index
+title: engineering-android
 ---
 
-* [Android Platform Architecture](platform/architecture) 
-* [Android App Architecture](app/architecture)
+<h1>Android</h1>
+<div class="subheader">Reflections on Architecture, Framework Internals, and Kernel Mechanics</div>
+<hr>
 
-### 🏗️ Architecture & Jetpack
-* [Modern Android Architecture Guidelines](architecture/maa-guidelines) — A breakdown of MVI and Guide to App Architecture.
-* [Deep Dive into Coroutines and Flow](architecture/coroutines-flow) — Managing asynchronous streams cleanly.
-* [Dependency Injection with Hilt](architecture/hilt-di) — Scoping and injecting dependencies effectively.
+<div class="section-title">Core Directory</div>
+<div class="link-matrix">
+    <a href="/framework/binder-ipc.html">Understanding the Binder IPC Mechanism</a> · 
+    <a href="/framework/zygote-process.html">Zygote: The Process Starter Pipeline</a> · 
+    <a href="/framework/ashmem.html">Anonymous Shared Memory Mechanics</a> · 
+    <a href="/ui/surface-flinger.html">SurfaceFlinger and Hardware Composer Core</a> · 
+    <a href="/ui/view-lifecycle.html">Mathematical Mechanics of View Layouts</a> · 
+    <a href="/ui/choreographer.html">Choreographer VSYNC Pulse Coordination</a> · 
+    <a href="/runtime/art-vs-dalvik.html">ART Architecture: AOT and JIT Compilations</a> · 
+    <a href="/runtime/dex-format.html">Anatomy of the Dalvik Executable Format</a> · 
+    <a href="/runtime/garbage-collection.html">Garbage Collection in Concurrent Runtimes</a> · 
+    <a href="/runtime/class-loading.html">PathClassLoader and BootClassLoader Isolation</a>
+</div>
 
-### 🎨 Jetpack Compose & UI
-* [Recomposition Optimization](ui/recomposition-performance) — Keeping your UI fast and skipping unnecessary draws.
-* [Custom Layouts in Compose](ui/custom-layouts) — Going beyond Rows, Columns, and Boxes.
+<hr>
