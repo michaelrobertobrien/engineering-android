@@ -26,6 +26,7 @@ title: engineeringandroid
 <div class="section-title" style="margin-top: 30px;">UI</div>
 <div class="link-matrix" style="line-height: 1.8;">
     <a href="/framework/test.html">Jetpack Compose</a><br>
+    <a href="/framework/test.html">View System (XML)</a><br>
 </div>
 
 <div class="section-title" style="margin-top: 30px;">Media</div>
@@ -33,9 +34,16 @@ title: engineeringandroid
     <a href="media/image-loading.html">Image Loading</a><br>
 </div>
 
+<div class="section-title" style="margin-top: 30px;">Data Management & Storage</div>
+<div class="link-matrix" style="line-height: 1.8;">
+    <a href="/framework/testc.html">Preferences</a><br>
+    <a href="/framework/test.hml">SQLite & Room</a><br>
+</div>
+
 <div class="section-title" style="margin-top: 30px;">Performance</div>
 <div class="link-matrix" style="line-height: 1.8;">
-    <a href="/framework/testc.html">Diagnostics</a><br>
+    <a href="/framework/testc.html">Profiling</a><br>
+    <a href="/framework/test.hml">Memory Management</a><br>
 </div>
 
 <div class="section-title" style="margin-top: 30px;">Build System</div>
