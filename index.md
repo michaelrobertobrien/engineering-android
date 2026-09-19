@@ -40,6 +40,11 @@ title: engineeringandroid
     <a href="/framework/test.hml">SQLite & Room</a><br>
 </div>
 
+<div class="section-title" style="margin-top: 30px;">Networking</div>
+<div class="link-matrix" style="line-height: 1.8;">
+    <a href="/framework/testc.html">Retrofit</a><br>
+</div>
+
 <div class="section-title" style="margin-top: 30px;">Performance</div>
 <div class="link-matrix" style="line-height: 1.8;">
     <a href="/framework/testc.html">Profiling</a><br>
