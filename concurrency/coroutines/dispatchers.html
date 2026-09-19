@@ -1,11 +1,3 @@
-Dispatchers specify exactly which thread or thread pool a coroutine will use to start and resume its execution.
-
-The four built-in dispatchers:
-- Dispatchers.Main: Executes on the single application UI thread. Used exclusively for rendering interface components, responding to user touches, or updating live data.
-- Dispatchers.IO: Backed by an elastic shared pool of up to 64 threads (or core count, whicever is larger). Used for blocking operations like reading files, querying databases via Room, or making network calls.
-- Dispatchers.Default: Backed by a thread pool sized to match the number of available CPU cores (min. 2). Used for processor-heavy work like sorting massive arrays, processing images, or parsing complex JSON.
-- Dispatchers.Unconfined: Executes immediately in the current calling thread, but switches to whatever thread a subsequent suspension point dictates. Generally avoid in production application code.
-
 <h1>Coroutines</h1>
 <hr>
 
